@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("https://cdn.mos.cms.futurecdn.net/ZxMaZq2VfVKj7Lbo5y7dLR.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+.lista {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: #ff9800;
+  transform: scale(1.05);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #2196f3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #0b7dda;
+}
